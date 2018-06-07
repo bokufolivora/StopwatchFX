@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+
+        <Label fx:id="timeText" layoutX="269.0" layoutY="97.0" text="00:00:00">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+
+        <Button id="xxx" fx:id="cmdStart" layoutX="102.0" layoutY="200.0" mnemonicParsing="false" text="START" AnchorPane.leftAnchor="102.0" AnchorPane.rightAnchor="428.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+
+        <Button fx:id="cmdStop" layoutX="275.0" layoutY="200.0" mnemonicParsing="false" text="STOP">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+
+        <Button fx:id="cmdReset" layoutX="438.0" layoutY="200.0" mnemonicParsing="false" text="RESET">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+
+</AnchorPane>
